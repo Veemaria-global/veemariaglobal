@@ -1,0 +1,199 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header with Logo */
+.header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    background-color: white;
+    color: #007BFF;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Navigation Menu */
+.navbar {
+    background-color: #FF6600; /* Bright orange menu */
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+    text-decoration: underline;
+    color: #333;
+}
+
+/* Hero Section with Background Image */
+.hero {
+    background-image: url('/storage/emulated/0/Download/group-african-medical-students-college-standing-stairs.jpg'); /* Replace with your image file name */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Full height of the viewport */
+    color: #fff; /* White text color */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+}
+
+.cta-button {
+    background-color: #FFCC00;
+    color: #007BFF;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.
+
+.cta-button {
+    background-color: #FFCC00; /* green button */
+    color: #007BFF;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #FFD700; /* Gold color on hover */
+}
+
+/* Dropdown Sections */
+.dropdown-section {
+    margin: 40px 0;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+.dropdown-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.dropdown-btn:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-content {
+    background-color: #f9f9f9;
+    max-height: 0;
+    overflow: hidden;
+    padding-left: 15px;
+    transition: max-height 0.3s ease-out;
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown-content p, .dropdown-content ul {
+    padding: 15px 0;
+}
+
+/* Enrollment Section */
+.enrollment-section {
+    background-color: #FFCC00; /* Bright yellow background */
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #FF6600; /* Orange border */
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.enrollment-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.enrollment-section label {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.enrollment-section input, .enrollment-section select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.enrollment-section button {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.enrollment-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #007BFF;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #ddd;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}

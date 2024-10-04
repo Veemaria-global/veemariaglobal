@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="madu.css">
+</head>
+<script src="tot.js"></script>
+</head>        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veemaria GLOBAL INTERNATIONAL LTD - Enrollment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script> <!-- JavaScript for form validation and dropdowns -->
+</head>
+<body>
+
+    <!-- Header with Logo -->
+    <header class="header">
+        <div class="logo">
+            <span>VGI</span> <!-- Logo using text -->
+        </div>
+        <h1>VEEMARIA GLOBAL INTERNATIONAL LTD</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About the Program</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#payment">Payment</a></li>
+            <li><a href="#enroll">Enroll Now</a></li>
+            <li><a href="#support">Help & Support</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section (Home Page) -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Welcome to VEEMARIA GLOBAL INTERNATIONAL LTD</h1>
+        <p>Your gateway to becoming a certified healthcare professional recognized globally by various organizations.</p>
+        <a href="#enroll" class="cta-button">Enroll Now</a>
+    </div>
+</section>
+
+    <!-- Mission & Vision Section -->
+    <section class="dropdown-section">
+        <h2>Mission & Vision</h2>
+        <button class="dropdown-btn">Our Mission & Vision</button>
+        <div class="dropdown-content">
+            <p><strong>Mission:</strong> To create world-class professionals in healthcare, focusing on geriatric care, healthcare assistance, and nurse training. We aim to develop compassionate, highly skilled individuals recognized by international bodies.</p>
+            <p>Our mission is to provide practical, hands-on training in a state-of-the-art facility, ensuring that every trainee has the confidence and expertise to work globally in hospitals, care facilities, and homes. We prepare our students to meet global healthcare demands with integrity, care, and skill.</p>
+
+            <p><strong>Vision:</strong> To train over a thousand professionals in the next few years who will stand out among their peers and become leaders in the healthcare sector worldwide. Our vision is to transform the healthcare landscape by providing top-tier training that is internationally recognized, creating professionals who make a real difference in people's lives.</p>
+        </div>
+    </section>
+
+    <!-- About the Program Section -->
+    <section id="about" class="dropdown-section">
+        <h2>About the Program</h2>
+        <button class="dropdown-btn">More Info</button>
+        <div class="dropdown-content">
+            <p>Our HCA diploma program incorporates theory and hands-on practical training in a highly equipped training facility. In this 8-week program, individuals will learn how to support people who are dependent on health workers due to unforeseen medical conditions. Our course is designed to equip you with the skills and knowledge needed to excel in the healthcare industry.</p>
+            <h3>Learning Outcomes</h3>
+            <ul>
+                <li>Safety and mobility</li>
+                <li>Body systems</li>
+                <li>Assisting with personal hygiene of patients</li>
+                <li>Household management, nutrition, and hydration</li>
+                <li>Assisting with medications</li>
+                <li>Providing person-centered care and comfort</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="dropdown-section">
+        <h2>Our Services</h2>
+        <button class="dropdown-btn">Explore Services</button>
+        <div class="dropdown-content">
+            <ul>
+                <li>Special vaccination</li>
+                <li>Travel counseling and visa preparation</li>
+                <li>Sales of hospital basic equipment</li>
+                <li>Home services for different nursing care</li>
+                <li>Specialized body piercing</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Enrollment Section -->
+    <section id="enroll" class="enrollment-section">
+        <h2>Enroll in the Program</h2>
+        <form id="enrollmentForm" action="#payment" method="get">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="course">Select Program:</label>
+            <select id="course" name="course" required>
+                <option value="hca">Healthcare Assistant (HCA)</option>
+                <option value="nurse">Nurse Assistant</option>
+                <option value="geriatric">Geriatric Caregiver</option>
+            </select>
+
+            <!-- I'm not a robot checkbox -->
+            <div class="robot-check">
+                <input type="checkbox" id="notRobot" required>
+                <label for="notRobot">I am not a robot</label>
+            </div>
+
+            <button type="submit">Proceed to Payment</button>
+        </form>
+    </section>
+
+    <!-- Payment Information Section -->
+    <section id="payment" class="dropdown-section">
+        <h2>Payment Information</h2>
+        <div>
+            <p><strong>Program Fee:</strong> ₦5000</p>
+            <p><strong>Account Number:</strong> 9151555835</p>
+            <p><strong>Account Name:</strong> Bala Tungkat Endurance</p>
+            <p><strong>Bank Name:</strong> Palmay</p>
+            <p>Please send payment evidence to our WhatsApp number: <strong>091511555835</strong> for verification and assistance.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="dropdown-section">
+        <h2>Contact Us</h2>
+        <button class="dropdown-btn">Contact Information</button>
+        <div class="dropdown-content">
+            <p><strong>Location:</strong> Asokoro Modern Market, Mogadishu Cantonment, Abacha Barracks Mammy Market, F Line</p>
+            <p><strong>Phone:</strong> 08139929905</p>
+            <p><strong>WhatsApp:</strong> 091511555835</p>
+            <p><strong>Email:</strong> veemariaglobal@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Help & Support Section -->
+    <section id="support" class="dropdown-section">
+        <h2>Help & Support</h2>
+        <button class="dropdown-btn">Get Assistance</button>
+        <div class="dropdown-content">
+            <p>If you need any help or assistance, feel free to contact us via:</p>
+            <p><strong>Email:</strong> veemariaglobal@gmail.com</p>
+            <p><strong>Phone:</strong> 08139929905</p>
+            <p><strong>WhatsApp:</strong> 091511555835</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Created 2024 by Chris Bello Technologies</p>
+    </footer>
+
+</body>
+</html>
